@@ -1,7 +1,12 @@
 const notFound = (req, res, next) => {
-  const error = new Error(`Not Found - ${req.originalUrl}`);
-  res.status(404);
-  next(error);
+  // Only apply to API routes
+  if (req.originalUrl.startsWith('/api')) {
+    const error = new Error(`Not Found - ${req.originalUrl}`);
+    res.status(404);
+    next(error);
+  } else {
+    next();
+  }
 };
 
 const errorHandler = (err, req, res, next) => {

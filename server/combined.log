@@ -1061,3 +1061,5 @@
 {"level":"info","message":"User NgVJBXgT5kP155D0AAAF joined notes room for: 69bffab7c6256e14fe3eb342","service":"studysync-api","timestamp":"2026-03-23 02:24:04"}
 {"level":"info","message":"User NgVJBXgT5kP155D0AAAF joined notes room for: 69bffab7c6256e14fe3eb342","service":"studysync-api","timestamp":"2026-03-23 02:24:04"}
 {"level":"info","message":"User disconnected: NgVJBXgT5kP155D0AAAF","service":"studysync-api","timestamp":"2026-03-23 02:24:15"}
+{"level":"info","message":"Server running in development mode on port 5001","service":"studysync-api","timestamp":"2026-03-23 02:53:16"}
+{"level":"info","message":"Server running in development mode on port 5001","service":"studysync-api","timestamp":"2026-03-23 02:55:16"}
